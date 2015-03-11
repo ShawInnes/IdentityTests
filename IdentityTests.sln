@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPIdentityServer", "ASPIdentityServer\ASPIdentityServer.csproj", "{4B86E053-ADE9-4979-84A1-446A49CA2E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIIdentityClient", "APIIdentityClient\APIIdentityClient.csproj", "{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleIdentityClient", "ConsoleIdentityClient\ConsoleIdentityClient.csproj", "{351BD554-5AF1-40A9-A208-6EC1E46CA852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCIdentityClient", "MVCIdentityClient\MVCIdentityClient.csproj", "{F8AE77E0-315D-49D3-B444-EE55C76D3087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B86E053-ADE9-4979-84A1-446A49CA2E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B86E053-ADE9-4979-84A1-446A49CA2E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B86E053-ADE9-4979-84A1-446A49CA2E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B86E053-ADE9-4979-84A1-446A49CA2E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351BD554-5AF1-40A9-A208-6EC1E46CA852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351BD554-5AF1-40A9-A208-6EC1E46CA852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351BD554-5AF1-40A9-A208-6EC1E46CA852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351BD554-5AF1-40A9-A208-6EC1E46CA852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AE77E0-315D-49D3-B444-EE55C76D3087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AE77E0-315D-49D3-B444-EE55C76D3087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AE77E0-315D-49D3-B444-EE55C76D3087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AE77E0-315D-49D3-B444-EE55C76D3087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
