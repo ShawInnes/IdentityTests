@@ -24,8 +24,7 @@ namespace ASPIdentityServer
                     Factory = InMemoryFactory.Create(
                         Users.Get(),
                         Clients.Get(),
-                        Scopes.Get()
-                        )
+                        Scopes.Get())
                 });
             });
         }

@@ -28,6 +28,7 @@ namespace ASPIdentityServer.Repositories
                 new Scope
                 {
                     Name = "api1",
+                    Description = "Web API",
                     Claims = new List<ScopeClaim>
                     {
                         new ScopeClaim(Constants.ClaimTypes.Name),
