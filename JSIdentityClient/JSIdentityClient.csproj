@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EBF8AF9E-BFB8-41E0-BDB9-42F2503A4DBC}</ProjectGuid>
+    <ProjectGuid>{82DE884C-9932-4A34-BDB7-03B2EE16159F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>APIIdentityClient</RootNamespace>
-    <AssemblyName>APIIdentityClient</AssemblyName>
+    <RootNamespace>JSIdentityClient</RootNamespace>
+    <AssemblyName>JSIdentityClient</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -43,18 +43,21 @@
       <HintPath>..\packages\Microsoft.IdentityModel.Protocol.Extensions.1.0.0\lib\net45\Microsoft.IdentityModel.Protocol.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin">
-      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security">
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.Jwt">
+    <Reference Include="Microsoft.Owin.Security.Jwt, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.Jwt.3.0.0\lib\net45\Microsoft.Owin.Security.Jwt.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth">
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -65,18 +68,16 @@
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
     <Reference Include="System.IdentityModel" />
-    <Reference Include="System.IdentityModel.Tokens.Jwt">
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.4.0.0\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
-    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Caching" />
-    <Reference Include="System.Web.Cors">
-      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.3\lib\net45\System.Web.Cors.dll</HintPath>
-    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -86,15 +87,12 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.Cors">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http.Owin">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.2\lib\net45\System.Web.Http.Owin.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -103,12 +101,88 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="Thinktecture.IdentityServer3.AccessTokenValidation">
-      <HintPath>..\packages\Thinktecture.IdentityServer3.AccessTokenValidation.1.2.0\lib\net45\Thinktecture.IdentityServer3.AccessTokenValidation.dll</HintPath>
+    <Reference Include="Thinktecture.IdentityServer.v3.AccessTokenValidation">
+      <HintPath>..\packages\Thinktecture.IdentityServer.v3.AccessTokenValidation.1.0.0-beta3-2\lib\net45\Thinktecture.IdentityServer.v3.AccessTokenValidation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="modal.html" />
+    <Content Include="oidc\crypto.js" />
+    <Content Include="oidc\crypto.min.js">
+      <DependentUpon>crypto.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\defaultHttpRequest.js" />
+    <Content Include="oidc\defaultHttpRequest.min.js">
+      <DependentUpon>defaultHttpRequest.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\defaultPromiseFactory.js" />
+    <Content Include="oidc\defaultPromiseFactory.min.js">
+      <DependentUpon>defaultPromiseFactory.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\es6-promise-2.0.0.js" />
+    <Content Include="oidc\es6-promise-2.0.0.min.js">
+      <DependentUpon>es6-promise-2.0.0.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\iife-end.js" />
+    <Content Include="oidc\iife-start.js" />
+    <Content Include="oidc\json-sans-eval.js" />
+    <Content Include="oidc\json-sans-eval.min.js">
+      <DependentUpon>json-sans-eval.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\jws-3.0.js" />
+    <Content Include="oidc\jws-3.0.min.js">
+      <DependentUpon>jws-3.0.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\oidc.js">
+      <DependentUpon>oidc.js.bundle</DependentUpon>
+    </Content>
+    <Content Include="oidc\oidc.min.js">
+      <DependentUpon>oidc.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\rsa.js" />
+    <Content Include="oidc\rsa.min.js">
+      <DependentUpon>rsa.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\oidcclient.js" />
+    <Content Include="oidc\token-manager - Copy.min.js">
+      <DependentUpon>oidcclient.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\token-manager.js" />
+    <Content Include="oidc\token-manager.min.js">
+      <DependentUpon>token-manager.js</DependentUpon>
+    </Content>
     <Content Include="packages.config" />
+    <Content Include="oidc\oidc.js.bundle" />
+    <Content Include="oidc\crypto.min.js.map">
+      <DependentUpon>crypto.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\es6-promise-2.0.0.min.js.map">
+      <DependentUpon>es6-promise-2.0.0.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\json-sans-eval.min.js.map">
+      <DependentUpon>json-sans-eval.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\jws-3.0.min.js.map">
+      <DependentUpon>jws-3.0.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\rsa.min.js.map">
+      <DependentUpon>rsa.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\token-manager.min.js.map">
+      <DependentUpon>token-manager.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\token-manager - Copy.min.js.map">
+      <DependentUpon>token-manager - Copy.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\defaultHttpRequest.min.js.map">
+      <DependentUpon>defaultHttpRequest.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\defaultPromiseFactory.min.js.map">
+      <DependentUpon>defaultPromiseFactory.min.js</DependentUpon>
+    </Content>
+    <Content Include="oidc\oidc.min.js.map">
+      <DependentUpon>oidc.min.js</DependentUpon>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,14 +191,29 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="callback.html" />
+    <Content Include="frame.html" />
+    <Content Include="index.html" />
+    <Content Include="jquery-2.1.0.min.js" />
+    <Content Include="tests\defaultPromiseFactory.spec.js" />
+    <Content Include="tests\jasmine-2.1.3\boot.js" />
+    <Content Include="tests\jasmine-2.1.3\console.js" />
+    <Content Include="tests\jasmine-2.1.3\jasmine-html.js" />
+    <Content Include="tests\jasmine-2.1.3\jasmine.css" />
+    <Content Include="tests\jasmine-2.1.3\jasmine.js" />
+    <Content Include="tests\jasmine-2.1.3\jasmine_favicon.png" />
+    <Content Include="tests\SpecRunner.html" />
+    <Content Include="tests\oidcclient.spec.js" />
+    <Content Include="tests\token-manager.spec.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\StatusController.cs" />
-    <Compile Include="Controllers\IdentityController.cs" />
-    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Api\TestController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -139,9 +228,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3928</DevelopmentServerPort>
+          <DevelopmentServerPort>23453</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:3928/</IISUrl>
+          <IISUrl>http://localhost:23453/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

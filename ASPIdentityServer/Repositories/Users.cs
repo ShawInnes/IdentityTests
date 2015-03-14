@@ -3,7 +3,7 @@ using System.Security.Claims;
 using Thinktecture.IdentityServer.Core;
 using Thinktecture.IdentityServer.Core.Services.InMemory;
 
-namespace ASPIdentityServer.Repositories
+namespace JSIdentityClient.Repositories
 {
     public static class Users
     {

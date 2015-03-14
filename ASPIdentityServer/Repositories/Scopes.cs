@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Thinktecture.IdentityServer.Core;
 using Thinktecture.IdentityServer.Core.Models;
 
-namespace ASPIdentityServer.Repositories
+namespace JSIdentityClient.Repositories
 {
     public static class Scopes
     {
@@ -22,9 +22,24 @@ namespace ASPIdentityServer.Repositories
                 StandardScopes.RolesAlwaysInclude,
                 StandardScopes.AllClaims,
 
+
                 ////////////////////////
                 // resource scopes
                 ////////////////////////
+                new Scope
+                {
+                    Name = "read",
+                    DisplayName = "Read data",
+                    Type = ScopeType.Resource,
+                    Emphasize = false
+                },
+                new Scope
+                {
+                    Name = "write",
+                    DisplayName = "Write data",
+                    Type = ScopeType.Resource,
+                    Emphasize = true
+                },
                 new Scope
                 {
                     Name = "api1",

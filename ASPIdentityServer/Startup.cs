@@ -2,12 +2,13 @@
 using System.Security.Cryptography.X509Certificates;
 using ASPIdentityServer;
 using ASPIdentityServer.Repositories;
+using JSIdentityClient.Repositories;
 using Microsoft.Owin;
 using Owin;
 using Thinktecture.IdentityServer.Core.Configuration;
 using Thinktecture.IdentityServer.Core.Models;
 
-[assembly: OwinStartup(typeof (Startup))]
+[assembly: OwinStartup(typeof(Startup))]
 
 namespace ASPIdentityServer
 {
@@ -24,7 +25,8 @@ namespace ASPIdentityServer
                     Factory = InMemoryFactory.Create(
                         Users.Get(),
                         Clients.Get(),
-                        Scopes.Get())
+                        Scopes.Get()),
+                    CorsPolicy = CorsPolicy.AllowAll
                 });
             });
         }

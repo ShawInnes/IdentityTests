@@ -28,6 +28,7 @@ namespace APIIdentityClient
             config.Filters.Add(new AuthorizeAttribute());
             
             app.UseWebApi(config);
+            
         }
     }
 }
